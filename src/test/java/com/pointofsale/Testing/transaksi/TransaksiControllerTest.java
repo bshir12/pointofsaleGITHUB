@@ -1,4 +1,4 @@
-package com.pointofsale.Testing;
+package com.pointofsale.Testing.transaksi;
 
 import com.pointofsale.controller.TransaksiController;
 

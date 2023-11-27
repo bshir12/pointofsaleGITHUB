@@ -12,7 +12,7 @@ public class PembeliRespone {
     private Integer id;
     private String noTelepon;
     private String email;
-    private String nama;
+    private String name;
     private String alamat;
     private String tanggalLahir;
     private String jenisKelamin;

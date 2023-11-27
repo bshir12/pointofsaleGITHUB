@@ -31,7 +31,7 @@ public class PembeliService {
                     .id(pembeli.getId())
                     .noTelepon(pembeli.getNoTelepon())
                     .email(pembeli.getEmail())
-                    .nama(pembeli.getNama())
+                    .name(pembeli.getNama())
                     .alamat(pembeli.getAlamat())
                     .tanggalLahir(pembeli.getTanggalLahir())
                     .jenisKelamin(pembeli.getJenisKelamin())
@@ -47,7 +47,7 @@ public class PembeliService {
 
         pembeli.setNoTelepon(request.getNoTelepon());
         pembeli.setEmail(request.getEmail());
-        pembeli.setNama(request.getNama());
+        pembeli.setNama(request.getName());
         pembeli.setAlamat(request.getAlamat());
         pembeli.setTanggalLahir(request.getTanggalLahir());
         pembeli.setJenisKelamin(request.getJenisKelamin());
@@ -57,7 +57,7 @@ public class PembeliService {
                 .id(pembeli.getId())
                 .noTelepon(pembeli.getNoTelepon())
                 .email(pembeli.getEmail())
-                .nama(pembeli.getNama())
+                .name(pembeli.getNama())
                 .alamat(pembeli.getAlamat())
                 .tanggalLahir(pembeli.getTanggalLahir())
                 .jenisKelamin(pembeli.getJenisKelamin())
@@ -78,7 +78,7 @@ public class PembeliService {
             p.setId(id);
             p.setNoTelepon(request.getNoTelepon());
             p.setEmail(request.getEmail());
-            p.setNama(request.getNama());
+            p.setNama(request.getName());
             p.setAlamat(request.getAlamat());
             p.setTanggalLahir(request.getTanggalLahir());
             p.setJenisKelamin(request.getJenisKelamin());
@@ -89,7 +89,7 @@ public class PembeliService {
                 .id(pembeli.get().getId())
                 .noTelepon(request.getNoTelepon())
                 .email(request.getEmail())
-                .nama(request.getNama())
+                .name(request.getName())
                 .alamat(request.getAlamat())
                 .tanggalLahir(request.getTanggalLahir())
                 .jenisKelamin(request.getJenisKelamin())
