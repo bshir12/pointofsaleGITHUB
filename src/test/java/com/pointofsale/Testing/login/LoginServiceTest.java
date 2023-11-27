@@ -1,4 +1,4 @@
-package com.pointofsale.Testing;
+package com.pointofsale.Testing.login;
 
 import com.pointofsale.dto.login.LoginPembeliRequest;
 import com.pointofsale.dto.login.LoginRespone;

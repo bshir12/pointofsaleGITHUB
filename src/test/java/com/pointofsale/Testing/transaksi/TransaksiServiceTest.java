@@ -1,4 +1,4 @@
-package com.pointofsale.Testing;
+package com.pointofsale.Testing.transaksi;
 
 import com.pointofsale.dto.transaksi.TransaksiRequest;
 import com.pointofsale.dto.transaksi.TransaksiRespone;
