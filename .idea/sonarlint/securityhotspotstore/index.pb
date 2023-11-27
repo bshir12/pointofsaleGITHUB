@@ -41,3 +41,5 @@ m
 =src/main/java/com/pointofsale/dto/pembeli/PembeliRespone.java,3\b\3bf662d1b4a03b434e4baf135c3bd025f9bd3e63
 r
 Bsrc/test/java/com/pointofsale/repository/BarangRepositoryTest.java,1\9\190e14ef6b7927bd0d4afb56711202ce31b97387
+s
+Csrc/test/java/com/pointofsale/controller/PembeliControllerTest.java,c\d\cd7c09f5519e02e065f1105905c9e5b30a7864eb
