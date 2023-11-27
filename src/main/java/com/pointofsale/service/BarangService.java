@@ -100,9 +100,9 @@ public class BarangService {
     }
 
 
-    public String deleteBarangById(String token,Integer id) throws Exception {
+    public String deleteBarangById(String token,Integer id){
         if (!tokenService.getToken(token)) {
-            throw new Exception("TOKEN TIDAK VALID");
+            throw new IllegalArgumentException("TOKEN TIDAK VALID");
         }
         String respone = "";
         Optional<Barang>  barang = null;
@@ -111,7 +111,7 @@ public class BarangService {
             barangRepository.deleteById(id);
             respone = "Deleted Success";
         }catch (Exception e){
-            throw new Exception();
+            throw new IllegalArgumentException();
         }
         return respone;
     }

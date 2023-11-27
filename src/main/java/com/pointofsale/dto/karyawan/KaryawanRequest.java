@@ -1,10 +1,12 @@
 package com.pointofsale.dto.karyawan;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
 @Data
 @Builder
+@AllArgsConstructor
 public class KaryawanRequest {
 
     private String nik;

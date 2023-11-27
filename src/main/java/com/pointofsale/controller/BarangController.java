@@ -3,7 +3,7 @@ package com.pointofsale.controller;
 import com.pointofsale.dto.barang.BarangRequest;
 import com.pointofsale.dto.barang.BarangRespone;
 import com.pointofsale.service.BarangService;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,10 +11,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/barang")
+@RequiredArgsConstructor
 public class BarangController {
 
-    @Autowired
-    private BarangService barangService;
+    private final BarangService barangService;
 
 
     @GetMapping
@@ -39,7 +39,7 @@ public class BarangController {
 
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<String> deleteBarangById(@RequestHeader("token")String token,@PathVariable("id") Integer id) throws Exception {
+    public ResponseEntity<String> deleteBarangById(@RequestHeader("token")String token,@PathVariable("id") Integer id){
         String respone = barangService.deleteBarangById(token,id);
         return ResponseEntity.ok(respone);
     }
