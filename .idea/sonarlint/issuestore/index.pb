@@ -5,7 +5,7 @@ w
 G.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,b\4\b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
-Å
+¬Å
 Q.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,1\0\10a03f31c4dce92cb371e761ce9429428bb6c176
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
@@ -45,3 +45,6 @@ s
 Csrc/test/java/com/pointofsale/controller/PembeliControllerTest.java,c\d\cd7c09f5519e02e065f1105905c9e5b30a7864eb
 s
 Csrc/test/java/com/pointofsale/repository/PembeliRepositoryTest.java,c\8\c82834188bf88b6e9c57cb518f5c89ceb9c526bd
+
+Csrc/test/java/com/pointofsale/controller/PembeliControllerTest.java,c\d\cd7c09f5519e02e065f1105905c9e5b30a7864eb
+
