@@ -4,7 +4,6 @@ import com.pointofsale.dto.karyawan.KaryawanRequest;
 import com.pointofsale.dto.karyawan.KaryawanRespone;
 import com.pointofsale.entitiy.Karyawan;
 import com.pointofsale.repository.KaryawanRepository;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
@@ -12,12 +11,13 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-@RequiredArgsConstructor
 public class KaryawanService {
 
-    private final KaryawanRepository karyawanRepository;
+    @Autowired
+    private KaryawanRepository karyawanRepository;
 
-    private final TokenService tokenService;
+    @Autowired
+    private TokenService tokenService;
 
 
     public List<KaryawanRespone> getAllKaryawan(String token) {

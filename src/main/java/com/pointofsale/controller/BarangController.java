@@ -4,6 +4,7 @@ import com.pointofsale.dto.barang.BarangRequest;
 import com.pointofsale.dto.barang.BarangRespone;
 import com.pointofsale.service.BarangService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -39,7 +40,7 @@ public class BarangController {
 
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<String> deleteBarangById(@RequestHeader("token")String token,@PathVariable("id") Integer id){
+    public ResponseEntity<String> deleteBarangById(@RequestHeader("token")String token,@PathVariable("id") Integer id) throws Exception {
         String respone = barangService.deleteBarangById(token,id);
         return ResponseEntity.ok(respone);
     }

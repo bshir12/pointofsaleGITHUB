@@ -10,19 +10,20 @@ import com.pointofsale.repository.KaryawanRepository;
 import com.pointofsale.repository.LoginRepository;
 import com.pointofsale.repository.PembeliRepository;
 import com.pointofsale.util.JwtToken;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.Date;
 import java.util.Optional;
 
 @Service
-@RequiredArgsConstructor
 public class LoginService {
 
-    private final KaryawanRepository karyawanRepository;
-    private final PembeliRepository pembeliRepository;
-    private final LoginRepository loginRepository;
+    @Autowired
+    private KaryawanRepository karyawanRepository;
+    @Autowired
+    private PembeliRepository pembeliRepository;
+    @Autowired
+    private LoginRepository loginRepository;
 
 
     public LoginRespone loginKaryawan(LoginKaryawanRequest request) {
