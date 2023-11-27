@@ -1,0 +1,21 @@
+
+[	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(‘ï¡
+Z	java:S112L"FDefine and throw a dedicated exception instead of using a generic one.(‰Æáe
+`	java:S112D"FDefine and throw a dedicated exception instead of using a generic one.(ÈÁ›øÿÿÿÿ
+[	java:S112f"FDefine and throw a dedicated exception instead of using a generic one.(‘ï¡
+Z	java:S112o"FDefine and throw a dedicated exception instead of using a generic one.(‰Æáe
+[	java:S112d"FDefine and throw a dedicated exception instead of using a generic one.(ú¯êÌ
+H
+java:S2789i"2Replace this null literal by an "Optional" object.(œˆü†
+K
+java:S3655K"6Call "pembeli.isPresent()" before accessing the value.(«£ıF
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+A
+java:S1168"+Return an empty collection instead of null.(¥¹ï
+V
+java:S1854k";Remove this useless assignment to local variable "pembeli".(à»îåşÿÿÿÿ
+B
+java:S1481i",Remove this unused "pembeli" local variable.(œˆü†

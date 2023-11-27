@@ -1,0 +1,19 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‘ï¡
+[	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(‘ï¡
+[	java:S112K"FDefine and throw a dedicated exception instead of using a generic one.(‘ï¡
+Z	java:S112Q"FDefine and throw a dedicated exception instead of using a generic one.(‰Æáe
+[	java:S112i"FDefine and throw a dedicated exception instead of using a generic one.(‘ï¡
+Z	java:S112r"FDefine and throw a dedicated exception instead of using a generic one.(‰Æáe
+H
+java:S2789l"2Replace this null literal by an "Optional" object.(ìµ
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+P
+java:S1854n":Remove this useless assignment to local variable "barang".(Ü°Œ
+A
+java:S1481l"+Remove this unused "barang" local variable.(ìµ
