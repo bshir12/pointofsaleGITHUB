@@ -43,3 +43,13 @@ r
 Bsrc/test/java/com/pointofsale/repository/BarangRepositoryTest.java,1\9\190e14ef6b7927bd0d4afb56711202ce31b97387
 s
 Csrc/test/java/com/pointofsale/controller/PembeliControllerTest.java,c\d\cd7c09f5519e02e065f1105905c9e5b30a7864eb
+s
+Csrc/test/java/com/pointofsale/repository/PembeliRepositoryTest.java,c\8\c82834188bf88b6e9c57cb518f5c89ceb9c526bd
+Å
+Q.idea/sonarlint/securityhotspotstore/c/d/cd7c09f5519e02e065f1105905c9e5b30a7864eb,d\4\d482eb8e58de682f7884673b6e7abe833244463a
+Å
+Q.idea/sonarlint/securityhotspotstore/c/8/c82834188bf88b6e9c57cb518f5c89ceb9c526bd,a\b\ab1ff6fe5829ed9dfa5851a80286b504dec4c83f
+w
+G.idea/sonarlint/issuestore/a/b/ab1ff6fe5829ed9dfa5851a80286b504dec4c83f,6\8\684e091cb7ec5f2cdfa4e00f032f2acbfe9d14e6
+Å
+Q.idea/sonarlint/securityhotspotstore/a/b/ab1ff6fe5829ed9dfa5851a80286b504dec4c83f,4\c\4c1a78a0964977e53a6047b884a92882f3886ef6
